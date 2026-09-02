@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ruleset name="Sales by State Report for FluentCart">
+	<description>WordPress Coding Standards for Sales by State Report for FluentCart.</description>
+
+	<arg name="extensions" value="php"/>
+	<arg value="sp"/>
+
+	<exclude-pattern>/assets/*</exclude-pattern>
+
+	<rule ref="WordPress-Extra"/>
+
+	<!--
+	Classes under src/ are PSR-4 autoloaded via the SBSFC\ namespace (see the
+	spl_autoload_register() call in the main plugin file), so file names
+	match their class names (Page.php, Controller.php, ...) rather than the
+	legacy class-foo.php convention this sniff expects.
+	-->
+	<rule ref="WordPress.Files.FileName">
+		<exclude-pattern>src/*</exclude-pattern>
+	</rule>
+</ruleset>
