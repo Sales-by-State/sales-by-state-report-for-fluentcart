@@ -1,10 +1,4 @@
 *** Sales by State Report for FluentCart Changelog ***
 
-2026-08-28 - version 1.0.2
-* Meet WordPress.org Plugin Check requirements for database queries, hidden files, translations, and Tested up to.
-
-2026-08-28 - version 1.0.1
-* Match the WooCommerce Sales by State report layout. No Tailwind.
-
-2026-08-28 - version 1.0.0
+2026-09-05 - version 1.0.0
 * Initial release.

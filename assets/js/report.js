@@ -264,8 +264,8 @@
 		}
 
 		var rangeLabel = totalRows
-			? start + '-' + end + ' of ' + totalRows
-			: '0 of 0';
+			? start + '-' + end + ' ' + __( 'of', TEXTDOMAIN ) + ' ' + totalRows
+			: '0 ' + __( 'of', TEXTDOMAIN ) + ' 0';
 
 		var pagination = el(
 			'div',

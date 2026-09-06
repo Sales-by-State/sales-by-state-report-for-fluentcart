@@ -3,15 +3,14 @@
  * Plugin Name:          Sales by State Report for FluentCart
  * Plugin URI:           https://salesbystate.com/
  * Description:          See a yearly breakdown of FluentCart sales by state / county / province for a given country, filterable by order status.
- * Version:              1.0.2
+ * Version:              1.0.0
  * Author:               Rodolfo Melogli
- * Author URI:           https://businessbloomer.com/
+ * Author URI:           https://salesbystate.com/
  * Developer:            Rodolfo Melogli
- * Developer URI:        https://businessbloomer.com/
+ * Developer URI:        https://salesbystate.com/
  * Text Domain:          sales-by-state-report-for-fluentcart
  * Domain Path:          /languages
  * Requires at least:    6.4
- * Tested up to:         7.1
  * Requires PHP:         7.4
  * Requires Plugins:     fluent-cart
  * License:              GPL-2.0-or-later
@@ -23,7 +22,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SBSFC_VERSION', '1.0.2' );
+define( 'SBSFC_VERSION', '1.0.0' );
 define( 'SBSFC_FILE', __FILE__ );
 define( 'SBSFC_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SBSFC_URL', plugin_dir_url( __FILE__ ) );
